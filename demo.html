@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>collapse demo</title>
+<script type="text/javascript" src="http://www.chinaso.com/common/base/js/jquery-1.9.1.min.js"></script>
+<style type="text/css">
+.item {
+	background: #eee;
+	border: 1px solid #ccc;
+	width: 200px;
+}
+.collapseBtn {
+	cursor: pointer;
+	float: right;
+}
+.collapseBtn.on {
+	color: red;
+}
+</style>
+</head>
+<body>
+<div class="item-list">	
+	<div class="item"><div class="collapseBtn"><span class="collapseText">展开</span></div>
+		<div class="list0">	
+			<p>1111</p>
+		</div>
+		<div class="list1">	
+			<p>22</p>
+			<p>33</p>
+		</div>
+		<div class="list2">	
+			<p>4</p>
+			<p>5</p>
+		</div>
+	</div>
+	<div class="item"><div class="collapseBtn"><span class="collapseText">展开</span></div>
+		<div class="list0">	
+			<p>1111</p>
+		</div>
+		<div class="list1">	
+			<p>22</p>
+			<p>33</p>
+		</div>
+		<div class="list2">	
+			<p>4</p>
+			<p>5</p>
+		</div>
+	</div>
+	<div class="item"><div class="collapseBtn"><span class="collapseText">展开</span></div>
+		<div class="list0">	
+			<p>1111</p>
+		</div>
+		<div class="list1">	
+			<p>22</p>
+			<p>33</p>
+		</div>
+		<div class="list2">	
+			<p>4</p>
+			<p>5</p>
+		</div>
+	</div>
+	<div class="item"><div class="collapseBtn"><span class="collapseText">展开</span></div>
+		<div class="list0">	
+			<p>1111</p>
+		</div>
+		<div class="list1">	
+			<p>22</p>
+			<p>33</p>
+		</div>
+		<div class="list2">	
+			<p>4</p>
+			<p>5</p>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="collapse.js"></script>
+<script type="text/javascript">
+/*new Collapse('.item-list');*/
+$('.item-list').collapse();
+</script>
+</body>
+</html>
