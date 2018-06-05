@@ -1,0 +1,27 @@
+{
+  "name": "collapse",
+  "version": "1.0.0",
+  "description": "列表展开收起交互",
+  "main": "collapse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "uglifyjs collapse.js -o ./dist/collapse.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dodoroy/collapse.git"
+  },
+  "keywords": [
+    "collapse",
+    "jquery"
+  ],
+  "author": "Effy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dodoroy/collapse/issues"
+  },
+  "homepage": "https://github.com/dodoroy/collapse#readme",
+  "devDependencies": {
+    "uglify-js": "^3.4.0"
+  }
+}
